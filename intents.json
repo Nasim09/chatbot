@@ -1,0 +1,76 @@
+{ 
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+            "Yooooooo",
+            "Hey",
+            "How are you",
+            "Is anyone there?",
+            "Hello",
+            "Good Day"
+            ],
+            "responses": [
+             "Hey :-)",
+             "Yoooooooooo",
+             "Hi there, what can I do for you?",
+             "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See ya", "Goodbye"],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Alight then bro",
+                "Later gator."
+            ] 
+        }, 
+        {
+           "tag": "thanks",
+           "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+           "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+          "tag": "manga",
+          "patterns": [
+            "Top 5 manga",
+            "Good manga to read"
+            ],
+            "responses": [
+                "Demon Slayer", 
+                "One Piece", 
+                "Tokoyo Goul", 
+                "Vagabond", 
+                "Jujutsu Kaisen"
+            ]
+             
+        },
+        {
+            "tag": "anime",
+            "patterns": [
+              "Top 5 anime",
+              "Good anime to watch"
+            ],
+            "responses" : [
+                "Classroom of the elite", 
+                "Demon Slayer", 
+                "One Piece", 
+                "Dragon Ball", 
+                "Hunter x Hunter" 
+            ]},
+            { "tag": "funny",
+             "patterns": [
+                "Tell me a joke",
+                "Tell me something funny",
+                "Do you know a good joke?"
+             ],
+             "responses": [
+                "What did the fish say when it swam into a wall? Dam. ",
+                "What do you call a can opener that doesn't work? A can't opener(¬‿¬)",
+                "Did you hear about the Italian chef who dies? He pasta-way( ͡ᵔ ͜ʖ ͡ᵔ )"
+
+             ]}
+          
+    ]
+}     
